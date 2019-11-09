@@ -19,3 +19,13 @@ Decide if the node MCU will be a:
 
 Have NodeMCU connect to wireless router. After connecting, prints out the NodeMCU’s IP address 
 Then connects to dweet.io and reads latest dweet then shows dweet on Serial Monitor.
+
+##### WiFi_webserver.ino:
+
+##### WiFi_webserver_button.ino:
+
+##### servo.ino:
+
+##### LDR_Analog.ino:	
+
+##### LDR_Digital.ino:
