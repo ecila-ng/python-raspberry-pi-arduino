@@ -17,17 +17,22 @@ Decide if the node MCU will be a:
 - Client - which sends requests to servers and processes response(s)
 - Server - which waits for clients to send it data (and responds accordingly)
 
-Have NodeMCU connect to wireless router. After connecting, prints out the NodeMCU’s IP address 
+Have NodeMCU connect to wireless router. After connecting, prints out the NodeMCU’s IP address
+
 Then connects to dweet.io and reads latest dweet then shows dweet on Serial Monitor.
 
 ##### WiFi_webserver.ino: --------------------------------------------------------------------------------------------------------------
 Have NodeMCU connect to wireless router. After connecting, prints out the NodeMCU’s IP address 
+
 Waits for web browser to send NodeMCU a GET command then shows command on Serial Monitor.
 
 ##### WiFi_webserver_button.ino: -------------------------------------------------------------------------------------------------------
 Wire an external LED on breadboard to NodeMCU with a brown banded resistor
+
 Have NodeMCU connect to wireless router. After connecting, prints out the NodeMCU’s IP address 
+
 Waits for web browser to send NodeMCU a GET command then shows command on Serial Monitor. 
+
 The command is the sequence that comes after the “GET”
 - If the command is “/on”, then turn on the external LED 
 - If the command is “/off”, then turn off the external LED 
