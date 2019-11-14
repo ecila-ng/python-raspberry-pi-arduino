@@ -1,4 +1,4 @@
-# Arduino classworks
+# Folder map 🌳
 
 ##### Button.ino:
 Make the LED blink faster, get LEDs to blink alternately 
